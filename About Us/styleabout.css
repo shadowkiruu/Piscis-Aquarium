@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Macondo&family=Montserrat:wght@300&family=Roboto:wght@300&family=Titillium+Web&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Macondo', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
+
+img{
+    width: 66.67px;
+    height: 62;
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.piscis{
+    font-weight: bolder;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-right: 30%;
+    margin-left: -40px;
+}
+
+.piscis{
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+nav {
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+#active{
+    color: #369DD7;
+}
+
+a:hover{
+    color: #369DD7;
+}
+
+.the-journey{
+    background-color: #369DD7;
+    display: flex;
+    height: 431px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.the-journey img{
+    width: 422px;
+    height: 281px;
+    z-index: 2;
+    position: relative;
+    left: -147px;
+}
+
+.kotak-putih-1{
+    background-color: white;
+    width: 331px;
+    height: 250px;
+    position: absolute;
+    top: 220px;
+    left: 175px;
+    z-index: 1;
+}
+
+.kotak-biru-muda{
+    width: 10px;
+    height: 160px;
+    background-color: #8CD7EF;
+    position: relative;
+    top: 5px;
+}
+
+.title{
+    font-size: 64px;
+    color: white;
+    font-weight: bolder;
+}
+
+.keseluruhan-title{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -437px;
+    top: 25px;
+}
+
+.title{
+    position: relative;
+    left: 20px;
+}
+
+.founder{
+    background-color: white;
+    display: flex;
+    height: 431px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.founder img{
+    width: 375px;
+    height: 294px;
+    position: relative;
+    right: 35px;
+    z-index: 2;
+}
+
+.kotak-biru{
+    background-color: #8CD7EF;
+    width: 268px;
+    height: 224px;
+    position: relative;
+    left: 255px;
+    top: 53px;
+}
+
+.founder-desc{
+    font-size: 28px;
+    position: relative;
+    left: 125px;
+}
+
+.vision{
+    background-color: #369DD7;
+    height: 431px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vision img{
+    width: 423px;
+    height: 238px;
+    z-index: 2;
+    position: relative;
+    right: 30px;
+}
+
+.vision-desc{
+    font-size: 28px;
+    position: relative;
+    right: 60px;
+    color: white;
+}
+
+.kotak-putih-2{
+    background-color: white;
+    width: 262px;
+    height: 203px;
+    position: absolute;
+    left: 260px;
+    bottom: -555px;
+    z-index: 1;
+}
+
+img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out; 
+}
+
+img:hover{
+    transform: scale(1.18);
+}
+
+footer{
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+

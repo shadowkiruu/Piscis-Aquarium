@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Macondo&family=Montserrat:wght@300&family=Roboto:wght@300&family=Titillium+Web&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Macondo', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
+
+img{
+    width: 66.67px;
+    height: 62;
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+#active{
+    color: #369DD7;
+}
+
+a:hover{    
+    color: #369DD7;
+}
+
+.piscis{
+    font-weight: bolder;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-right: 30%;
+    margin-left: -40px;
+}
+
+.piscis{
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+nav {
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+main {
+    background-color: #369DD7;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    height: 100vh;
+}
+
+input{
+    font-size: 1.2rem;
+}
+
+.form-container{
+    width: 549px;
+    height: 609px;
+    background-color: white;
+    padding-top: 55px;
+    padding-left: 25px;
+    padding-bottom: 45px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-email{
+    width: 437px;
+    height: 41px;
+}
+
+.input-password{
+    width: 437px;
+    height: 41px;
+}
+
+.email-box {
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.email-title{
+    font-size: 24px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.password-title{
+    font-size: 24px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.password-box{
+    padding-bottom: 80px;
+}
+
+.button{
+    width: 195px;
+    height: 67px;
+    background-color: #8CD7EF;
+    border-style: none;
+    font-size: 24px;
+    color: white;
+}
+
+button:hover{
+    transition: 0.3s;
+    background-color: #369DD7;
+    cursor: pointer;
+}
+
+.register{
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+
+footer{
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
